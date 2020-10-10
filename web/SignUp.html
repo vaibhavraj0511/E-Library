@@ -1,0 +1,96 @@
+<html>
+<style>
+        body{
+            background-repeat:no-repeat;
+            background-image:url('1.jpg');
+        }
+        .fonttheme
+        {
+            font-family:arial;
+            font-weight: bold;
+            font-size:20px;
+        }
+        .tdtheme{
+            font-weight:bold;
+            font-family:arial;
+            font-size:30px;
+        }
+        .tdthemee{
+            font-weight:bold;
+            font-family:arial;
+            font-size:50px;
+        }
+        a{
+           text-decoration:none;
+           color:white;
+        }
+</style>    
+    <body>
+        <div style="background-color:black;color:white;padding:20px;border-radius:20px">
+            <h2>E-Library</h2>
+            <div style="opacity: 0.6">
+                <table width="100%">
+                    <tr align="center"style="color:white ">
+                        <td><a href="index.html"> Home</a></td>
+                        <td><a href="AdminLogin.html">Admin</a></td>
+                        <td><a href="StudentLogin.html">Student</a></td>
+                        <td><a href="SignUp.html">SignUp</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+   
+        <table width="100%">
+             <tr align="center">
+                <td class="tdthemee">E-Library</td>
+            </tr>
+                <tr align="Center" >
+                    <td colspan="2" class="tdtheme">SIGN UP</td>
+                </tr>
+                </table>
+      
+               
+            <form action="StudentSignUp" method="POST">
+       
+                <table align="right">
+                 <tr>
+                <td class="fonttheme">Full Name</td>
+                <td><input type="text" class="form-control" name="fullName" placeholder=" Enter Full Name"  style="border-radius:20px;width:250px;height:40px;background-color:white;color:black;font-size:20px"></td>
+            </tr>    
+            <tr>
+                <td class="fonttheme">Enrollment Number</td>
+                <td><input type="text"class="form-control" name="enroll" placeholder=" Enter Enrollmetn No." style="border-radius:20px;width:250px;height:40px;background-color:whithe;color:black;font-size:20px"></td>
+            </tr>  
+            <tr>
+                <td class="fonttheme">Password</td>
+                <td><input type="password" class="form-control" name="password" placeholder=" Enter Password" style="border-radius:20px;width:250px;height:40px;background-color:white;color:black;font-size:20px"></td>
+            </tr>
+            <tr>
+                <td class="fonttheme">Gender</td>
+                <td><input type="radio"  name="Gender" value="Male">Male<input type="radio" name="Gender" value="Female">Female<input type="radio" name="Gender" value="Other">Other</td>
+            </tr> 
+           
+            <tr> 
+                <td class="fonttheme">Branch</td>
+                <td><input type="text" class="form-control" name="branch" placeholder=" Enter Branch" style="border-radius:20px;width:250px;height:40px;background-color:white;color:black;font-size:20px"></td>
+            </tr>  
+            <tr> 
+                <td class="fonttheme">Year</td>
+                <td><input type="text" class="form-control" name="year" placeholder=" Enter Year" style="border-radius:20px;width:250px;height:40px;background-color:white;color:black;font-size:20px"></td>
+            </tr>
+            <tr>
+                <td class="fonttheme">Contact Number</td>
+                <td><input type="number" class="form-control" name="contactNo" placeholder=" Enter Contact Number" style="border-radius:20px;width:250px;height:40px;background-color:white;color:black;font-size:20px"></td>
+            </tr>
+            
+            <tr>
+                <td class="fonttheme"><input type="submit" value="Sign UP" style="border-radius:20px;width:250px;height:40px;background-color:lightblue;color:white;font-size:20px"></td>
+                <td class="fonttheme"><input type="reset" value="Cancel" style="border-radius:20px;width:250px;height:40px;background-color:lightblue;color:white;font-size:20px"></td>
+            </tr>
+            </table>
+       </form>
+        
+   
+             
+    </body>
+</html>

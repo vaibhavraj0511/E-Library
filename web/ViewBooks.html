@@ -1,0 +1,65 @@
+<html>
+ 
+    <style>
+        body{
+            background-repeat:no-repeat;
+            background-image:url('Books-Background-Hd-Wallpaper.jpg');
+        }
+        .fonttheme
+        {
+            font-family:arial;
+            font-weight: bold;
+            font-size:20px;
+        }
+        .tdtheme{
+            font-weight:bold;
+            font-family:arial;
+            font-size:30px;
+        }
+        .tdthemee{
+            font-weight:bold;
+            font-family:arial;
+            font-size:50px;
+        }
+        input{
+            width:40%;
+            height:5%;
+            border:1px;
+            padding:8px 15px 8px 15px;
+            margin: 10px 0px 15px 0px;
+            box-shadow: 1px 1px 2px 1px black;
+        }
+      
+     
+    </style>    
+    <body>
+        <div style="background-color:black;color:white;padding:20px;border-radius:20px">
+            <h2>E-Library</h2>
+            <div style="opacity: 0.6">
+                <table width="100%">
+                    <tr align="center"style="color:white ">
+                        
+                        <td><a href="ViewBooks.html" style=" text-decoration:none;color:white;">View Books</a></td>
+                        <td><a href="StudentSetting.html" style=" text-decoration:none;color:white;">Setting</a></td>
+                        <td><a href="index.html" style=" text-decoration:none;color:white;">LogOut</a></td>
+                    </tr>
+                </table>
+               
+            </div>
+        </div>
+        <div>
+            <center>
+                <h1>Search the branch for Book here</h1>
+                <form action="ViewBooksCode" method="POST">
+                    <input type="text" name="id" placeholder="Enter Branch to search"><br>
+                    <input  type ="submit" name="search" value="Search Data" >
+                </form>
+            </center>   
+        </div>
+   
+        
+        
+        
+             
+    </body>
+</html>

@@ -1,0 +1,89 @@
+<html>
+ 
+    <style>
+        body{
+            background-repeat:no-repeat;
+            background-image:url('library1.jpg');
+        }
+        .fonttheme
+        {
+            font-family:arial;
+            font-weight: bold;
+            font-size:20px;
+        }
+        .tdtheme{
+            font-weight:bold;
+            font-family:arial;
+            font-size:30px;
+        }
+        .tdthemee{
+            font-weight:bold;
+            font-family:arial;
+            font-size:50px;
+        }
+        a{
+           text-decoration:none;
+           color:white;
+        }
+    </style>    
+    <body>
+        <div style="background-color:black;color:white;padding:20px;border-radius:20px">
+            <h2>E-Library</h2>
+            <div style="opacity: 0.6">
+                <table width="100%">
+                    <tr align="center"style="color:white ">
+                        
+                        <td><a href="ViewBooks.html">View Books</a></td>
+                        <td><a href="StudentSetting.html">Setting</a></td>
+                        <td><a href="index.html">LogOut</a></td>
+                    </tr>
+                </table>
+               
+            </div>
+        </div>
+        <br><br><br><br>
+        <div>
+            <table width="100%">
+             
+                <tr align="Center" >
+                    <td colspan="2" class="tdtheme">Download</td>
+                </tr>
+                </table>
+            <br><br>
+            <form action="DownloadBookCode" method="POST">
+            <table align="center">
+               
+                 <tr>
+                <td class="fonttheme">Name</td>
+                <td><input type="text" class="form-control" name="fullName" placeholder=" Enter Full Name"  style="border-radius:20px;width:250px;height:40px;background-color:white;color:black;font-size:20px"></td>
+            </tr>    
+            <tr>
+                <td class="fonttheme">Enrollment Number</td>
+                <td><input type="text"class="form-control" name="enroll" placeholder=" Enter Enrollmetn No." style="border-radius:20px;width:250px;height:40px;background-color:whithe;color:black;font-size:20px"></td>
+            </tr>  
+            <tr>
+                <td class="fonttheme">Enter Today's Date</td>
+                <td><input type="date" class="form-control" name="password" placeholder=" Enter Today's Date" style="border-radius:20px;width:250px;height:40px;background-color:white;color:black;font-size:20px"></td>
+            </tr>
+            
+           
+            <tr> 
+                <td class="fonttheme">Book Id</td>
+                <td><input type="text" class="form-control" name="branch" placeholder=" Enter BookId to Download" style="border-radius:20px;width:250px;height:40px;background-color:white;color:black;font-size:20px"></td>
+            </tr>  
+            
+            
+            <tr>
+                <td class="fonttheme"><input type="submit" value="Download" style="border-radius:20px;width:250px;height:40px;background-color:lightblue;color:white;font-size:20px"></td>
+                <td class="fonttheme"><input type="reset" value="Cancel" style="border-radius:20px;width:250px;height:40px;background-color:lightblue;color:white;font-size:20px"></td>
+            </tr>
+            </table>
+       </form>
+        </div>
+   
+        
+        
+   
+             
+    </body>
+</html>

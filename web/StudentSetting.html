@@ -1,0 +1,83 @@
+<html>
+ 
+    <style>
+        body{
+            background-repeat:no-repeat;
+            background-image:url('Gear-Backgrounds-Full-HD.jpg');
+        }
+        .fonttheme
+        {
+            font-family:arial;
+            font-weight: bold;
+            font-size:20px;
+            color: white
+        }
+        .tdtheme{
+            font-weight:bold;
+            font-family:arial;
+            font-size:30px;
+        }
+        .tdthemee{
+            font-weight:bold;
+            font-family:arial;
+            font-size:50px;
+        }
+        a{
+           text-decoration:none;
+           color:white;
+        }
+    </style>    
+    <body>
+        <div style="background-color:black;color:white;padding:20px;border-radius:20px">
+            <h2>E-Library</h2>
+            <div style="opacity: 0.6">
+                <table width="100%">
+                    <tr align="center"style="color:white ">
+                        
+                        <td><a href="ViewBooks.html">View Books</a></td>
+                        <td><a href="StudentSetting.html">Setting</a></td>
+                        <td><a href="index.html">LogOut</a></td>
+                    </tr>
+                </table>
+               
+            </div>
+        </div>
+        <div>
+            <form action="StudentSettingCode" method="POST">
+              <table width="50%" align="center" border="0" cellpadding="10"  style="border:inset ">
+                <tr align="center" bgcolor="black" >
+                    <td colspan="2" class="fonttheme">Password Setting</td>
+                </tr>
+                <tr>
+                    <td class="fonttheme">Enrollment Number</td>
+                    <td><input type="text" name="enroll" placeholder=" Enter Enrollment Number" style="border-radius:20px;width:350px;height:40px;background-color:white;color:black;font-size:20px"></td>
+                </tr>    
+                <tr>
+                    <td class="fonttheme">Old Password</td>
+                    <td><input type="password" name="oldPwd" placeholder=" Enter Old Password" style="border-radius:20px;width:350px;height:40px;background-color:white;color:black;font-size:20px"></td>
+                </tr>  
+                <tr>
+                    <td class="fonttheme">New Password</td>
+                    <td><input type="password" name="newPwd" placeholder=" Enter New Password" style="border-radius:20px;width:350px;height:40px;background-color:white;color:black;font-size:20px"></td>
+                </tr>    
+                <tr>
+                    <td class="fonttheme">Confirm New Password</td>
+                    <td><input type="password" name="cNewPwd" placeholder=" Confirm New Password" style="border-radius:20px;width:350px;height:40px;background-color:white;color:black;font-size:20px"></td>
+                </tr>  
+                <tr>
+                    <td class="fonttheme"><input type="submit" value="Confirm" style="border-radius:20px;width:300px;height:40px;background-color:black;color:white;font-size:20px"></td>
+                    <td class="fonttheme"><input type="reset" value="Cancel" style="border-radius:20px;width:300px;height:40px;background-color:black;color:white;font-size:20px"></td>
+                </tr>
+                
+        </table>
+            </form>
+                 
+                
+                    </div>
+   
+        
+        
+   
+             
+    </body>
+</html>
